@@ -3,14 +3,14 @@ using namespace std;
 int main()
 {
     int n,row,col;
-    
-    cout<< "Input a Number: ";
+
+    cout << "Input a Number: ";
     cin >> n;
 
     // outer loop
     for(row=1;row<=n;row++){
         // inner loop
-        for(col=1;col<=row;col++){
+        for(col=n;col>=row;col--){
             cout << "* ";
         }
         cout << endl;
