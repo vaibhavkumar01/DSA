@@ -13,6 +13,7 @@ int main()
 //       * * * * * 
 //         * * * 
 //           * 
+
     int n,row,col;
     
     cout << "Enter a number: ";
