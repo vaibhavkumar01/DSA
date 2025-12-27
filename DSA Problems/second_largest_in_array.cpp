@@ -10,7 +10,7 @@ public:
 
         // largest element
 
-        int ans = INT_MIN;
+        int ans = -1;
         
         for(int i=0; i<n; i++){
             if(arr[i]>ans)
@@ -19,7 +19,7 @@ public:
 
         // Second largest
 
-        int second = INT_MIN;
+        int second = -1;
         for(int i=0; i<n; i++){
             if(arr[i]!=ans)
             second = max(second,arr[i]);
