@@ -21,15 +21,15 @@ long long minTime(int A[], int N, int M)
     {
         mid = start + (end - start) / 2;
 
-        // Page allocation to student
-        long long pages = 0, Painter_count = 1;
+        // Wall length allocation to student
+        long long wall_length = 0, Painter_count = 1;
         for(int i = 0; i < N; i ++)
         {
-            pages += A[i];
-            if(pages > mid)
+            wall_length += A[i];
+            if(wall_length > mid)
             {
                 Painter_count ++;
-                pages = A[i];
+                wall_length = A[i];
             }
         }
 
