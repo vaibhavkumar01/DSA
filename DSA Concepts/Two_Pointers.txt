@@ -1,0 +1,103 @@
+TWO POINTERS TECHNIQUE (C++)
+
+--------------------------------
+1. WHAT IS TWO POINTERS?
+--------------------------------
+The Two Pointers technique uses two pointers to traverse an array or string.
+Instead of using nested loops(O(n^2)), it solves problems in linear time (O(n)).
+
+It is mainly used in:
+- Array
+- string
+- Linked list
+
+--------------------------------
+2. WHY TO USE TWO POINTERS?
+--------------------------------
+Brute force solutions are slow.
+Two Pointers reduces time complexity by moving pointers intelligently.
+
+EXAMPLES:
+Brute force pair search -> O(n^2)
+Two pointers on sorted array -> O(n)
+
+--------------------------------
+3. TYPES TWO POINTERS
+--------------------------------
+
+A) OPPOSITE DIRECTION POINTERS
+--------------------------------
+- One pointer starts at begnning
+- One pointer starts at end
+- Mostly used with sorted array
+
+Use cases:
+- Pair sum problems
+- Reverse array
+- Palindrome check
+
+B) SAME DIRECTION (FAST & SLOW)
+--------------------------------
+- Both pointers move forward
+- Fast pointer scans
+- Slow pointer stores result
+
+Use cases:
+- Remove duplicates
+- Compress arrays
+- Cycle detection
+
+C) SLIDING WINDOW (SPECIAL CASE)
+--------------------------------
+- Left and right pointers define a window
+- Window expands and shrinks
+
+Use cases:
+- Subarrays
+- Substrings
+- Sum or length constraints
+
+--------------------------------
+4. WHEN TO THINK OF TWO POINTERS?
+--------------------------------
+Ask these questions:
+- Is the array sorted?
+- Are we finding Pair or Subarrays?
+- Is brute force using nested loops?
+- can pointer movement reduces work?
+
+If YES -> Two Pointers is likely correct.
+
+--------------------------------
+5. COMMON MISTAKES
+--------------------------------
+To Avoide:
+- Using two pointers on unsorted arrays
+- Moving both pointers without logic
+- Wrong loop conditions
+- Forgetting edge cases
+
+--------------------------------
+6. TIME COMPLEXITY
+--------------------------------
+- Usually O(n)
+- Space complexity: O(1)
+
+--------------------------------
+7. IMPORTANT PRACTICE PROBLEMS
+--------------------------------
+See in DSA problems folder:
+- Segregate 0s and 1s
+- Two Sum (sorted array)
+- Valid Palindrome
+- Container With Most Water
+- Remove Duplicates
+- 3Sum
+- Trapping Rain Water
+etc.
+
+--------------------------------
+8. KEY IDEA TO REMEMBER
+--------------------------------
+One pointer explores,
+The other adjusts.
