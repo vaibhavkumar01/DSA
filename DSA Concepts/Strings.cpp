@@ -38,7 +38,7 @@ int main() {
     cout << "Sentence size: " << sentence.size() << endl;
 
     // 6. Concatenating strings using +
-    string firstName = "Rohit";
+    string firstName = "Vaibhav";
     string secondName = "Mohit";
 
     string combined = firstName + " " + secondName;
@@ -47,12 +47,12 @@ int main() {
 
     // 7. Appending a string using append()
     string appended = firstName;
-    appended.append(" Negi");
+    appended.append(" Kumar");
 
     cout << "Using append(): " << appended << endl;
 
     // 8. Adding a character using push_back()
-    string modified = "Rohit";
+    string modified = "Vaibhav";
     modified.push_back('!');
 
     cout << "After push_back(): " << modified << endl;
@@ -63,10 +63,10 @@ int main() {
     cout << "After pop_back(): " << modified << endl;
 
     // 10. Escape characters
-    string quoteExample = "Rohit said \"Hello\"";
+    string quoteExample = "Vaibhav said \"Hello\"";
     cout << "\nQuotation example: " << quoteExample << endl;
 
-    cout << "Backslash example: C:\\Users\\Rohit" << endl;
+    cout << "Backslash example: C:\\Users\\Vaibhav" << endl;
 
     // 11. Reverse the input sentence
     string reversed = sentence;
